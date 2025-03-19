@@ -7,7 +7,9 @@ public class EX10 {
                 int contViuvo = 0;
                 int contDivorciado = 0;
 
-                for (int i = 0; i < 5; i++) {
+                int num = Integer.parseInt(JOptionPane.showInputDialog("Número de iterações:"));
+
+                for (int i = 0; i < num; i++) {
                     String nome = JOptionPane.showInputDialog("Digite o nome da pessoa:");
                     String estadoCivil = JOptionPane.showInputDialog("Digite a sigla do estado civil (S - Solteiro, C - Casado, V - Viúvo, D - Divorciado):");
 

@@ -23,7 +23,7 @@ public class EX9 {
             else if(idade>17 && idade<=60){
                 contAdulto++;
             }
-            else if(idade>60 &&  idade<=99){
+            else if(idade>60 && idade<=99){
                 contVelho++;
             }
             else{
