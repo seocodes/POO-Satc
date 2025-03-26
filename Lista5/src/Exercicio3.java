@@ -10,7 +10,7 @@ public class Exercicio3 {
 
     }
 
-    public static double calcularIMC(double peso, double altura){
+    static double calcularIMC(double peso, double altura){
         return peso/(altura*altura);
     }
 }
