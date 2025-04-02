@@ -13,7 +13,6 @@ public class Exercicio7 {
             cadastrarFuncionarios(nome, setor);
         }
         JOptionPane.showMessageDialog(null, "Almoxarifado: "+contA+"\nProdução: "+contP+"\nContabilidade: "+contC);
-
     }
 
     static void cadastrarFuncionarios(String nome, String setor){

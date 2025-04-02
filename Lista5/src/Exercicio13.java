@@ -19,7 +19,7 @@ public class Exercicio13 {
             else if(op.equalsIgnoreCase("A")){
                 String nome = JOptionPane.showInputDialog("Nome do curso: ");
                 int idade = Integer.parseInt(JOptionPane.showInputDialog("Idade: "));
-                String sexo = JOptionPane.showInputDialog("Sexo: ");
+                String sexo = JOptionPane.showInputDialog("Sexo: ").toUpperCase();
                 cadastrarCurso(nome,idade,sexo);
             }
             else{
