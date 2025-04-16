@@ -17,13 +17,10 @@ public class Exx8 {
         System.out.println();
     }
 
-    public static boolean verificarNome(String nome, String[] nomes){
+    public static boolean verificarNome(String target, String[] nomes){
         for(String n : nomes){
-            if(n.equalsIgnoreCase(nome)){
+            if(n.equalsIgnoreCase(target)){
                 return true;
-            }
-            else{
-                return false;
             }
         }
         return false;
