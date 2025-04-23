@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ListaHeranca/Ex1/Ex1.iml" filepath="$PROJECT_DIR$/ListaHeranca/Ex1/Ex1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaHeranca/Ex2/Ex2.iml" filepath="$PROJECT_DIR$/ListaHeranca/Ex2/Ex2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaHeranca/Ex3/Ex3.iml" filepath="$PROJECT_DIR$/ListaHeranca/Ex3/Ex3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaHeranca/Ex4/Ex4.iml" filepath="$PROJECT_DIR$/ListaHeranca/Ex4/Ex4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaHeranca/Ex5/Ex5.iml" filepath="$PROJECT_DIR$/ListaHeranca/Ex5/Ex5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista1/Lista1.iml" filepath="$PROJECT_DIR$/Lista1/Lista1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista2/Lista2.iml" filepath="$PROJECT_DIR$/Lista2/Lista2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista3/Lista3.iml" filepath="$PROJECT_DIR$/Lista3/Lista3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista4/Lista4.iml" filepath="$PROJECT_DIR$/Lista4/Lista4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista5/Lista5.iml" filepath="$PROJECT_DIR$/Lista5/Lista5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista6/Lista6.iml" filepath="$PROJECT_DIR$/Lista6/Lista6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaHeranca/ListaHeranca.iml" filepath="$PROJECT_DIR$/ListaHeranca/ListaHeranca.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO.iml" filepath="$PROJECT_DIR$/POO.iml" />
     </modules>
   </component>
