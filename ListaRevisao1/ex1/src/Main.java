@@ -21,6 +21,8 @@ public class Main {
             int op = sc.nextInt();
             sc.nextLine();
 
+            //Colquei os casos 5 e 6 em IF pra separar as responsabilidades
+            //Switch-case ficou só pra cadastro!
             if (op == 5) {
                 System.out.println("\nLista de Funcionários:");
                 for (Funcionario f : funcionarios) {
@@ -35,8 +37,8 @@ public class Main {
                 break;
             }
 
-            //Melhor para pegar os dados em comuns (da classe Funcionário)
-            //Precisa desse if, pois se estiver solto vai pedir as informações mesmo se o user só pedir pAra listar funcionários
+            //Melhor para pegar os dados em comuns (da classe Funcionário) - reusabilidade
+            //Precisa desse if, pois se estiver solto vai pedir as informações mesmo se o user só pedir para listar funcionários
             if (op >= 1 && op <= 4) {
                 long id;
                 String nome;
@@ -85,7 +87,6 @@ public class Main {
                         funcionario = new Gerente(id, nome, sexo, nrHoras, valorHora, setor);
                         break;
                 }
-
                 funcionarios.add(funcionario);
             } else {
                 System.out.println("Opção inválida! Tente novamente.");
