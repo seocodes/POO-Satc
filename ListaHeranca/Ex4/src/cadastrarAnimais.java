@@ -9,7 +9,7 @@ public class cadastrarAnimais {
         ArrayList<Animal> animais = new ArrayList<>();
         int opcao;
         do{
-            System.out.println("ESCOLHA A OPÇÃO\n0 - SAIR\n1 - CRIAR PEIXE\n2 - CRIAR MAMIFERO\n3 - CRIAR PEIXE\n4 - MOSTRAR ANIMAIS");
+            System.out.println("ESCOLHA A OPÇÃO\n0 - SAIR\n1 - CRIAR PEIXE\n2 - CRIAR MAMIFERO\n3 - CRIAR AVE\n4 - MOSTRAR ANIMAIS");
             opcao = sc.nextInt();
             if (opcao == 1){
                 System.out.print("Digite o nome: ");

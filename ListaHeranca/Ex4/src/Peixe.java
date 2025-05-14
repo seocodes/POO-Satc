@@ -9,12 +9,7 @@ public class Peixe extends Animal {
     @Override
     public String exibirDados(){
         return "Peixe " +
-                "\n  Nome: " + getNome() +
-                "\n  Comprimento: " + getComprimento() + " cm" +
-                "\n  Número de patas: " + getNumPatas() +
-                "\n  Cor: " + getCor() +
-                "\n  Ambiente: " + getAmbiente() +
-                "\n  Velocidade média: " + getVelocMedia() + " km/h " +
+                super.exibirDados() +
                 "\n  Característica especial: " + caracteristica +
                 "\n";
     }

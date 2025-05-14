@@ -9,12 +9,7 @@ public class Ave extends Animal{
     @Override
     public String exibirDados(){
         return "Ave " +
-                "\n  Nome: " + getNome() +
-                "\n  Comprimento: " + getComprimento() + " cm" +
-                "\n  Número de patas: " + getNumPatas() +
-                "\n  Cor: " + getCor() +
-                "\n  Ambiente: " + getAmbiente() +
-                "\n  Velocidade média: " + getVelocMedia() + " km/h " +
+                super.exibirDados() +
                 "\n  Alimentação: " + tipoBico +
                 "\n";
     }

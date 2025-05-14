@@ -6,8 +6,6 @@ public abstract class Animal {
         private String ambiente;
         private float velocMedia;
 
-        public abstract String exibirDados();
-
         public Animal(String nome, float comprimento, int numPatas, String cor, String ambiente, float velocMedia) {
             this.nome = nome;
             this.comprimento = comprimento;
@@ -63,5 +61,14 @@ public abstract class Animal {
 
         public void setVelocMedia(float velocMedia) {
             this.velocMedia = velocMedia;
+        }
+
+        public String exibirDados(){
+            return "\n  Nome: " + getNome() +
+                    "\n  Comprimento: " + getComprimento() + " cm" +
+                    "\n  Número de patas: " + getNumPatas() +
+                    "\n  Cor: " + getCor() +
+                    "\n  Ambiente: " + getAmbiente() +
+                    "\n  Velocidade média: " + getVelocMedia() + " km/h ";
         }
     }
