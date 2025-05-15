@@ -16,7 +16,7 @@ public class Exx6 {
     }
 
     static int[] somaArrays(int[] arrayA, int[] arrayB){
-        int[] arrayC = new int[10];
+        int[] arrayC = new int[arrayA.length];
 
         for(int i=0; i<10; i++){
             arrayC[i] = arrayA[i]+arrayB[i];
