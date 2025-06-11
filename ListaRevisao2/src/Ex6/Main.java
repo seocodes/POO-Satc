@@ -12,10 +12,13 @@ public class Main {
             System.out.println("0 - SAIR\n" +
                     "1 - ADICIONAR NOME");
             op = sc.nextInt();
+            sc.nextLine();
 
             if(op == 1){
-                sc.nextLine();
                 nomes.add(sc.nextLine());
+            }
+            else{
+                System.out.println("Opção inválida.");
             }
         }while (op != 0);
 
@@ -23,5 +26,6 @@ public class Main {
         for(String nome : nomes){
             System.out.print(nome + " ");
         }
+        sc.close();
     }
 }

@@ -17,8 +17,8 @@ public class Main {
 
         System.out.println();
         System.out.println("Numeros pares:");
-        for(int num : nums){
-            if(num % 2 == 0){
+        for(int num : nums) {
+            if (num % 2 == 0) {
                 System.out.print(num + " ");
             }
         }

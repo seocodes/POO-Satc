@@ -27,5 +27,6 @@ public class Main {
         }
 
         System.out.println("Maior: "+maior+"\nMenor: "+menor);
+        sc.close();
     }
 }

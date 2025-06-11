@@ -24,6 +24,6 @@ public class Main {
         for(int num : inverted){
             System.out.print(num + " ");
         }
-
+        sc.close();
     }
 }
